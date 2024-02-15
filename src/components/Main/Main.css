@@ -1,0 +1,169 @@
+
+.main {
+  position: absolute;
+  width: 1440px;
+  height: 734px;
+  display: flex;
+  top: 50px; 
+}
+.mockups{
+  width: 1280px;
+height: 481.52px;
+top: 156px;
+left: 80px;
+display: inline-flexbox;
+position: absolute;
+
+}
+
+.title-container{
+  width: 621px;
+  height: 319px;
+  top: 208px;
+  left: 80px;
+  border-radius: 10px;
+  display: flex;
+  position:absolute;
+}
+.title-main{
+  width: 621px;
+height: 131px;
+top: 208px;
+left: 80px;
+font-family: "Montserrat";
+font-size: 80px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0px;
+text-align: left;
+
+
+}
+.subtitle-main {
+  width: 621px;
+  height: 131px;
+  top: 208px;
+  left: 80px;
+  width: 700px;
+  color: #4AC959;
+  font-family: 'Mulish', sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 621;
+  line-height: 64px;
+  top: 40px;
+  left: 10px; 
+  z-index: 1; 
+}
+
+.text {
+  width: 398px;
+  height: 24px;
+  top: 395px;
+  left: 80px;
+  font-family: "Montserrat";
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+  
+}
+
+.button {
+  width: 300px;
+  height: 64px;
+  top: 463px;
+  left: 150px;
+  color: white;
+  border-radius: 10px;
+  background-color: #4AC959;
+  border: none;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+  
+
+}
+
+
+.imagem1 {
+  position: absolute;
+  width: 443px;
+  height: 481.52px;
+  top: 6px;
+  left: 847px;
+  z-index: 10; 
+}
+
+.imagem2 {
+  position: absolute;
+  width: 640px;
+  height: 743px;
+  left: 860px;
+  top: 0; 
+  z-index: 1; 
+}
+
+.imagem3 {
+  position: absolute;
+ top: 700px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  body{
+    overflow-x: hidden;
+  }
+  .main {
+
+    max-width: none;
+    height: auto;
+    top: 20px;
+    margin: 0 auto; 
+    position: relative; 
+  }
+
+  .mockups {
+    width: 90%;
+    max-width: none;
+    height: auto;
+    top: 120px;
+    margin: 0 auto; 
+    position: relative; 
+    left: 1%;
+  }
+
+  .button {
+    max-width: none;
+    height: auto;
+    margin: 0 auto; 
+  }
+
+  .imagem1,
+  .imagem2{
+    display: none;
+
+  }
+
+  .title-container {
+    width: 90%;
+    max-width: none;
+    height: auto;
+    top: 20px;
+    margin: 0 auto; 
+    position: relative; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+  }
+
+
+
+}

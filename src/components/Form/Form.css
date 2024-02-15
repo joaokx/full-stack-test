@@ -1,0 +1,178 @@
+.circleImage{
+    z-index: 200px;
+}
+
+.grafismo{
+    z-index:100px;
+}
+
+.form {
+  position: absolute;
+  top: 3184px; 
+  left: 383px;
+  width: 700px;
+  height: 820px;
+}
+
+
+  .circleImage {
+    position: absolute;
+    margin-bottom: 80px;
+    left: 260px;
+    width: 191px;
+    height: 191px;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  
+  .grafismo {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 191px;
+    height: 191px;
+    z-index: 1;
+  }
+  
+  .emailIcon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 186px;
+    left: 60px;
+  }
+  
+  .getInTouchText {
+    position: absolute;
+    top: 186px;
+    left: 150px;
+    width: 166px;
+    height: 58px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: #06152B;
+  }
+  
+  .nameLabel {
+    position: absolute;
+    width: 88px;
+    height: 20px;
+    top: 276px;
+    left: 60px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #06152B;
+  }
+  
+  .nameInput {
+    position: absolute;
+    width: 580px;
+    height: 50px;
+    top: 304px;
+    left: 60px;
+    border-radius: 4px;
+    border: 1px solid #06152B;
+  }
+  
+  .emailLabel {
+    position: absolute;
+    width: 52px;
+    height: 20px;
+    top: 378px;
+    left: 60px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #06152B;
+  }
+  
+  .emailInput {
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    top: 406px;
+    left: 60px;
+    border-radius: 4px;
+    border: 1px solid #06152B;
+  }
+  
+  .telephoneLabel {
+    position: absolute;
+    width: 91px;
+    height: 20px;
+    top: 378px;
+    left: 360px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #06152B;
+  }
+  
+  .telephoneInput {
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    top: 406px;
+    left: 360px;
+    border-radius: 4px;
+    border: 1px solid #06152B;
+  }
+  
+  .messageLabel {
+    position: absolute;
+    width: 77px;
+    height: 20px;
+    top: 480px;
+    left: 60px;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #06152B;
+  }
+  
+  .messageInput {
+    position: absolute;
+    width: 580px;
+    height: 150px;
+    top: 510px;
+    left: 60px;
+    border-radius: 4px;
+    border: 1px solid #06152B;
+  }
+  
+  .sendButton {
+    position: absolute;
+    width: 580px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #46BD62;
+    color: #FFFFFF;
+    top: 700px;
+    border: none;
+    left: 60px;
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    body{
+      overflow-x: hidden;
+    }
+    .form {
+      left: 20px;
+      width: 90%; 
+      height: auto;
+      position: absolute; 
+      top: 3200px;
+    }
+    
+   
+    .circleImage {
+      width: 150px;
+      height: 150px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  

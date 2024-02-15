@@ -1,58 +1,70 @@
-<p align="center">
-  <img src="https://coopers.pro/assets/img/coopers-brand.png" alt="Marca da Coopers" />
-</p>
+# Getting Started with Create React App
 
-<p align="center">
-  <em>Fast, flexible, trustful.</em>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Avaliação Full Stack Developer
+## Available Scripts
 
-O intuito deste documento é apresentar os pré-requisitos para a avaliação técnica do desenvolvedor full stack, com base em layout criado por nossa equipe especificamente para esta finalidade.
+In the project directory, you can run:
 
-## Briefing
+### `npm start`
 
-Podemos dividir esta avaliação em duas principais etapas:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. Desenvolvimento front-end do layout [disponível neste link](https://www.figma.com/file/OAMrciHo0uOf4H2cgg3MDm/Coopers---Site-para-teste-Front-End-%2F-Full-Stack?node-id=290%3A6333), sendo o mais fiel possível em todos os navegadores mais utilizados na atualidade: Chrome, Safari, Firefox e Microsoft Edge.
-2. Desenvolvimento das funcionalidades para cadastro e login de usuários e to-do list utilizando React e Node.js.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Critérios de avaliação
+### `npm test`
 
-### HTML
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Avaliaremos a qualidade do código escrito, desde a correta utilização de tags de acordo com sua semântica, como o aspecto de Acessibilidade seguindo as boas práticas dos padrões WCAG para uso de atributos.
+### `npm run build`
 
-Além da semântica, avaliaremos a inserção de comentários, uso coerente de classes e ID's nas tags e código enxuto, sem redundâncias.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### CSS
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-A entrega deve ser Responsive, ou seja, adaptação da interface para telas grandes (desktop), médias (tablets) e pequenas (celulares), porém essa adaptação fica a critério do desenvolvedor, não havendo indicação das alterações visuais para as telas menores no layout.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Além da correta reprodução do design, avaliaremos o código CSS quanto a conceitos de performance, coerência, lógica de estruturação de componentes, uso de propriedades e compatibilidade entre os navegadores.
+### `npm run eject`
 
-**É imprescindível o uso da metodologia Mobile First para a aplicação do Responsive**.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Aplicação e funcionalidades
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Fazer os CRUDs funcionais de uma to-do List;
-- Tornar a lista operacional com drag-and-drop, exclusão, adição, etc.;
-- Trabalho adicional: fazer um login/senha para acessar a página (acesso com credenciais).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Performance
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Avaliaremos as medidas utilizadas para garantir uma boa performance de carregamento e renderização da página.
+## Learn More
 
-## Prazo
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-O prazo limite para entrega da avaliação é de 2 semanas.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Entrega
+### Code Splitting
 
-A entrega deve ser feita disponibilizando um link para visualizar o projeto rodando em servidor remoto, além de repositório para avaliação do código-fonte.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Também esperamos receber um descritivo comentando como foi o processo de desenvolvimento deste desafio, incluindo as dificuldades e soluções encontradas.
+### Analyzing the Bundle Size
 
-## Dúvidas?
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-É só entrar em contato conosco pelo email coopers@coopers.pro.
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

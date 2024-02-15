@@ -1,0 +1,104 @@
+.footerImage {
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 4000px;
+  height: 246px;
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+
+  padding: 20px;
+  z-index: 1;
+}
+
+.footer{
+  background-color: black;
+  height: 230px;
+  width: 100%;
+  margin-top: 1720px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.footer-title {
+  color: white;
+  position: absolute;
+  width: 141px;
+  height: 20px;
+  top: 4120px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  z-index: 2; /* Ajustado o z-index para sobrepor o footer */
+}
+
+.footer-subtitle {
+  color: white;
+  position: absolute;
+  top: 4200px;
+  width: 270px;
+  height: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  z-index: 2; /* Ajustado o z-index para sobrepor o footer */
+}
+
+
+.footer-text {
+  color: white;
+  position: absolute;
+  top: 4230px;
+  width: 100%; /* Alterado para ocupar toda a largura */
+  height: 18px;
+  left: 0; /* Ajustado para ocupar toda a largura */
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px; /* Ajustado para corresponder à altura do texto */
+  letter-spacing: 0px;
+  white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+  z-index: 2; /* Ajustado o z-index para sobrepor o footer */
+}
+
+
+.footer-bg{
+  position: absolute;
+  top: 4280px;
+  width: 511px;
+height: 41px;
+left: 464px;
+
+  z-index: 2; 
+}
+
+
+@media screen and (max-width: 1000px) {
+  .footerImage {
+    margin-top: 4100px; 
+    height: 150px; 
+  }
+  .footer {
+    margin-top: 1170px; 
+    padding: 20px;
+    width: 1000%;
+  }
+
+  .footer-bg{
+    left:100px;
+  }
+}
